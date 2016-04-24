@@ -1,0 +1,6 @@
+!extends cs189_defaults.yaml
+
+name: Homework 7
+assignment_group_id: 1982633
+due_at: 2016-05-03 23:59:59
+lock_at: 2016-05-04 00:15:00

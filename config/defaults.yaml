@@ -1,0 +1,46 @@
+# API reference
+# https://canvas.instructure.com/doc/api/assignments.html#method.assignments_api.create
+
+# Assignment
+name: default                          # type: string
+# position: 1                            # type: integer
+
+# Grading
+points_possible: 100                   # type: float
+grading_type: points                   # type: string (i.e. pass_fail, percent, letter_grade, gpa_scale, points)
+due_at: null                           # type: datetime (ISO 8601 format)
+lock_at: null                          # type: datetime (ISO 8601 format)
+unlock_at: null                        # type: datetime (ISO 8601 format)
+description: null                      # type: string (HTML)
+assignment_group_id: null              # type: integer
+# grading_standard_id: ''                # type: integer
+
+# Submission
+submission_types:                      # type: list of strings
+  - null
+allowed_extensions:                    # type: list of strings
+  - null
+external_tool_tag_attributes: null     # type: string
+
+# Student notifications
+notify_of_update: false                # type: boolean
+published: false                       # type: boolean
+muted: true                            # type: boolean
+
+# Turnitin and integrations
+turnitin_enabled: false                # type: boolean
+# turnitin_settings: null                # type: string
+# integration_data: null                 # type: string
+# integration_id: null                   # type: string
+
+# Peer reviews
+peer_reviews: false                    # type: boolean
+# automatic_peer_reviews: '0'            # type: boolean
+
+# Group assignments
+group_category_id: null                # type: integer
+# grade_group_students_individually: 0   # type: integer
+
+# Overrides
+# assignment_overrides: null             # type: list of overrides
+# only_visible_to_overrides: false       # type: boolean

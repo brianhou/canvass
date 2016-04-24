@@ -1,0 +1,12 @@
+!extends defaults.yaml
+
+course_id: 1417619
+max_slip_days: 5
+
+submission_type: online
+submission_types:
+  - online_upload
+
+allowed_extensions:
+  - pdf
+  - zip
